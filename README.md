@@ -5,12 +5,11 @@ A simple dark theme for sddm
 
 # Installation
 
-    $ git clone https://github.com/simonesestito/dark-arch-sddm
+    $ git clone https://github.com/michaelgilch/dark-arch-sddm
     $ cd dark-arch-sddm
     $ ./install.sh #Requires sudo authentication while installing
 
-Then, apply the theme in KDE Settings
-(Settings > Workspace > Startup and shutdown > Login Screen (SDDM) > click on Simple Dark Theme, apply, authenticate and reboot)
+Then, apply the theme in /etc/sddm.conf.d/default.conf.
 
 
 # Customize the logo
