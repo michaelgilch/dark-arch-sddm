@@ -60,7 +60,7 @@ Rectangle {
         Rectangle {
             anchors.bottom: parent.bottom
             anchors.horizontalCenter: parent.horizontalCenter
-            width: 200
+            width: 300
             height: 120
             color: "transparent"
             visible: primaryScreen
@@ -72,7 +72,7 @@ Rectangle {
                 ImageButton {
                     id: btnReboot
                     anchors.horizontalCenter: parent.horizontalCenter
-                    width: 50
+                    width: 100
                     source: "resources/reboot.png"
 
                     visible: sddm.canReboot
@@ -97,7 +97,7 @@ Rectangle {
                 ImageButton {
                     id: btnPoweroff
                     anchors.horizontalCenter: parent.horizontalCenter
-                    width: 50
+                    width: 100
                     source: "resources/poweroff.png"
 
                     visible: sddm.canPowerOff
@@ -124,13 +124,13 @@ Rectangle {
             Column {
                 id: mainColumn
                 anchors.centerIn: parent
-                anchors.verticalCenterOffset: -100
+                anchors.verticalCenterOffset: -150
                 spacing: 12
 
                 Image {
                     id: logo
-                    width: 177
-                    height: 177
+                    width: 250
+                    height: 250
                     fillMode: Image.PreserveAspectFit
                     transformOrigin: Item.Center
                     source: config.logo
@@ -138,7 +138,7 @@ Rectangle {
 
                 TextBox {
                     id: name
-                    width: 177
+                    width: 250
                     text: userModel.lastUser
                     font.pixelSize: 16
                     radius: 20
@@ -151,7 +151,7 @@ Rectangle {
 
                 PasswordBox {
                     id: password
-                    width: 177
+                    width: 250
                     font.pixelSize: 16
                     radius: 20
                     color: "#77000000"
@@ -210,7 +210,7 @@ Rectangle {
                     textColor: "white"
                     dropdownColor: "#22000000"
                     hoverColor: "#77000000"
-                    width: 500
+                    width: 300
                     anchors.verticalCenter: parent.verticalCenter
 
                     arrowIcon: "resources/angle-down.png"
@@ -218,7 +218,7 @@ Rectangle {
                     model: sessionModel
                     index: sessionModel.lastIndex
 
-                    font.pixelSize: 14
+                    font.pixelSize: 18
 
                     KeyNavigation.backtab: btnPoweroff;
                 }
