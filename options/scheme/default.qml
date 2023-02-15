@@ -129,8 +129,8 @@ Rectangle {
 
                 Image {
                     id: logo
-                    width: 250
-                    height: 250
+                    width: 300
+                    height: 300
                     fillMode: Image.PreserveAspectFit
                     transformOrigin: Item.Center
                     source: config.logo
@@ -138,7 +138,7 @@ Rectangle {
 
                 TextBox {
                     id: name
-                    width: 250
+                    width: 300
                     text: userModel.lastUser
                     font.pixelSize: 16
                     radius: 20
@@ -151,7 +151,7 @@ Rectangle {
 
                 PasswordBox {
                     id: password
-                    width: 250
+                    width: 300
                     font.pixelSize: 16
                     radius: 20
                     color: "#77000000"
@@ -180,7 +180,7 @@ Rectangle {
                     id: errorMessage
                     anchors.horizontalCenter: parent.horizontalCenter
                     text: " "
-                    font.pixelSize: 12
+                    font.pixelSize: 14
                     color: "white"
                 }
             }

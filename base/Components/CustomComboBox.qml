@@ -26,7 +26,7 @@ import QtQuick 2.0
 
 FocusScope {
     id: container
-    width: 80; height: 30
+    width: 80; height: 50
 
     property color color: "white"
     property color borderColor: "#ababab"
@@ -99,7 +99,7 @@ FocusScope {
     Rectangle {
         id: arrow
         anchors.right: parent.right
-        width: 20; height: parent.height
+        width: 40; height: parent.height
 
         color: "transparent"
 
