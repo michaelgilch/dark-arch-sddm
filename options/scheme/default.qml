@@ -152,7 +152,7 @@ Rectangle {
                 PasswordBox {
                     id: password
                     width: 300
-                    font.pixelSize: 16
+                    font.pixelSize: 14
                     radius: 20
                     color: "#77000000"
                     borderColor: "#77000000"
