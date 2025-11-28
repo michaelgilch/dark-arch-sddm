@@ -1,7 +1,8 @@
-# Simple Dark Theme
+# Simple Dark Theme for Arch Linux SDDM
 
-A simple dark theme for sddm
+This is a simple dark theme for Arch Linux using SDDM.
 
+Originally forked from simonesestito/dark-arch-sddm.
 
 # Installation
 
@@ -9,15 +10,3 @@ A simple dark theme for sddm
     $ cd dark-arch-sddm
     $ ./install.sh #Requires sudo authentication while installing
 
-Then, apply the theme in /etc/sddm.conf.d/default.conf.
-
-
-# Customize the logo
-
-Did you know? In install.sh you can easily select the logo you prefer.
-Isn't it in the list? Open an issue here on GitHub specifying the distro name and a url to the logo you want.
-
-    
-# Screenshot
-    
-![screenshot](base/screenshot.png)
